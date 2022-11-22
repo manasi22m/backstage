@@ -28,6 +28,15 @@ export function registerCommands(program: Command) {
     .action(
       lazy(() => import('./api-reports/api-reports').then(m => m.default)),
     );
+
+  program
+    .command('changeset-feedback [diffRef...]')
+    .description('Ouputs the changeset-feedback')
+    .action(
+      lazy(() =>
+        import('./changeset-feedback/changeset-feedback').then(m => m.default),
+      ),
+    );
 }
 
 // Wraps an action function so that it always exits and handles errors
