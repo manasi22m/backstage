@@ -1,0 +1,1 @@
+export { MyCustomFieldExtension } from './extensions';
