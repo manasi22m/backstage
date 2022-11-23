@@ -1,5 +1,19 @@
 # @backstage/plugin-scaffolder-backend
 
+## 1.8.1-next.1
+
+### Patch Changes
+
+- Updated dependencies
+  - @backstage/backend-common@0.16.1-next.1
+  - @backstage/backend-plugin-api@0.1.5-next.1
+  - @backstage/backend-tasks@0.3.8-next.1
+  - @backstage/plugin-auth-node@0.2.8-next.1
+  - @backstage/plugin-catalog-backend@1.6.0-next.1
+  - @backstage/plugin-catalog-node@1.2.2-next.1
+  - @backstage/config@1.0.5-next.0
+  - @backstage/integration@1.4.1-next.0
+
 ## 1.8.1-next.0
 
 ### Patch Changes

@@ -1,5 +1,14 @@
 # @backstage/plugin-code-coverage-backend
 
+## 0.2.5-next.1
+
+### Patch Changes
+
+- Updated dependencies
+  - @backstage/backend-common@0.16.1-next.1
+  - @backstage/config@1.0.5-next.0
+  - @backstage/integration@1.4.1-next.0
+
 ## 0.2.5-next.0
 
 ### Patch Changes

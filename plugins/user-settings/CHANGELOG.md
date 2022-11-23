@@ -1,5 +1,14 @@
 # @backstage/plugin-user-settings
 
+## 0.6.0-next.1
+
+### Patch Changes
+
+- Updated dependencies
+  - @backstage/core-app-api@1.2.1-next.1
+  - @backstage/core-components@0.12.1-next.1
+  - @backstage/core-plugin-api@1.1.1-next.1
+
 ## 0.6.0-next.0
 
 ### Minor Changes

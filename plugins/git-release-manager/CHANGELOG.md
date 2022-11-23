@@ -1,5 +1,14 @@
 # @backstage/plugin-git-release-manager
 
+## 0.3.25-next.1
+
+### Patch Changes
+
+- Updated dependencies
+  - @backstage/core-components@0.12.1-next.1
+  - @backstage/core-plugin-api@1.1.1-next.1
+  - @backstage/integration@1.4.1-next.0
+
 ## 0.3.25-next.0
 
 ### Patch Changes

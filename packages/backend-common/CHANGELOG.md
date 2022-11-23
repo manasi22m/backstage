@@ -1,5 +1,15 @@
 # @backstage/backend-common
 
+## 0.16.1-next.1
+
+### Patch Changes
+
+- d3fea4ae0a: Internal fixes to avoid implicit usage of globals
+- 6b82598bd8: Added the ability to understand Job Artifact URLs to the GitLab integration
+- Updated dependencies
+  - @backstage/config@1.0.5-next.0
+  - @backstage/integration@1.4.1-next.0
+
 ## 0.16.1-next.0
 
 ### Patch Changes
