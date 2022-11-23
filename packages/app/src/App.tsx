@@ -28,6 +28,20 @@ import {
 } from '@backstage/catalog-model';
 import { createApp } from '@backstage/app-defaults';
 import { FlatRoutes } from '@backstage/core-app-api';
+import { MyCustomFieldExtension } from './scaffolder/MyCustomExtension';
+import { ScaffolderFieldExtensions } from '@backstage/plugin-scaffolder';
+
+const routes = (
+  <FlatRoutes>
+    ...
+    <Route path="/create" element={<ScaffolderPage />}>
+      <ScaffolderFieldExtensions>
+        <MyCustomFieldExtension />
+      </ScaffolderFieldExtensions>
+    </Route>
+    ...
+  </FlatRoutes>
+);
 import {
   AlertDisplay,
   OAuthRequestDialog,
